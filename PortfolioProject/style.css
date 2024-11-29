@@ -1,0 +1,171 @@
+.topics nav ul {
+    display:flex;
+    justify-content: flex-end;
+    padding: 10px 10px;
+    gap: 35px;
+    margin:auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #c5c1b9; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #3e3b32; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+}
+
+
+.name h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em; 
+    font-weight: bold;
+    font-style: italic;
+    color: #3e3b32; 
+    text-align: left;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+.name img {
+    border-radius: 0.7cm;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    transform: scale(1.05, 1);
+}
+
+.about h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    color: #3e3b32; 
+    text-align: left;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+.about p {
+    columns: 200px 1;
+    column-gap: 20px;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+.project h2 {
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+}
+h2  {
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+}
+
+#htmlLogo {
+    width: 50px; 
+    height: 50px;
+     
+}
+
+#CSSLogo {
+    width: 50px; 
+    height: 50px;
+    
+}
+
+#JSLogo {
+    width: 50px; 
+    height: 50px;
+}  
+
+#reactLogo {
+    width: 50px; 
+    height: 50px;
+}
+
+button {
+    border: 0cap;
+    text-align: left;
+    display: block;
+    margin-bottom: 50px;
+    
+}
+
+#insta {
+    height: 50px;
+    width: 50px;
+    transition: transform 0.3s ease;
+}
+
+#insta:hover {
+    transform: scale(1.1); 
+}
+
+#GHL {
+    height: 50px;
+    width: 50px;
+    transition: transform 0.3s ease;
+}
+
+#GHL:hover {
+    transform: scale(1.1); 
+}
+
+#linkin {
+    height: 50px;
+    width: 50px;
+    transition: transform 0.3s ease;
+}
+
+#linkin:hover {
+    transform:  scale(1.1);
+}
+textarea {
+    background-color:#c5c1b9;
+    border: 1px solid black; 
+    resize: none; 
+    width: 300px; 
+    height: 150px; 
+    padding: 5px; 
+    box-sizing: border-box; 
+    overflow-wrap: break-word; 
+    text-align: left; 
+    vertical-align: top; 
+    margin-bottom: 20px;
+}
+
+#name {
+    background-color: #c5c1b9;
+    border: 1px solid black;
+    width: 150px ;
+    height: 20px; 
+    margin-bottom: 50px;
+}
+
+.Form label {
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#mail {
+    background-color: #c5c1b9;
+    border: 1px solid black;
+    width: 150px ;
+    height: 20px; 
+    margin-bottom: 50px;
+}
